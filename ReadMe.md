@@ -11,6 +11,8 @@
 | **Kibana**        | Visualizes logs from Elasticsearch in dashboards and search            | Spring Boot app should run **after** the ELK stack is running                      |
 
 **Question for beginners:** Why not just read logs in `.log` files or console?
+
+**Answer:**
 1. **Centralized Logging** → All services' logs in one place.
 2. **Searchable & Structured** → JSON logs, easy to query and filter.
 3. **Real-Time Monitoring** → Dashboards in Kibana, alerts possible.
